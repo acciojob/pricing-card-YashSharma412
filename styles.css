@@ -1,1 +1,56 @@
 /*  your css code here. If applicable */
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+        padding: 10px;
+        background-color: #f1f1f1;
+        box-shadow: 5px 10px #888888;
+        border-radius: 7px;
+      }
+      
+      img{
+        width: 90%;
+        margin: 10px;
+        border-radius: 7px;
+      }
+
+      h1{
+        font-size: 36px;
+        font-weight: bolder;
+
+      }
+
+      p{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        margin: 5px;
+      }
+
+      #pricing{
+        margin-bottom: -5px;
+        margin-top: 15px;
+      }
+
+      button{
+        margin: 15px 20px;
+        margin-bottom: 35px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #fe625a;
+        color: white;
+        font-size: 24px;
+      }
